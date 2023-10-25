@@ -1,0 +1,123 @@
+#section4 {
+    height: 100%;
+}
+
+.personagens-dragon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.imagem-dragon{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.personagem-dragon{
+    display: none;
+    height: 100%;
+}
+
+.personagem-dragon.ok{
+    display: block;
+}
+
+.personagem-dragon .imagem-dragon{
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudo-dragon{
+    position: absolute;
+    top: 0;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    max-width: 38%;
+    z-index: 1;
+}
+
+.conteudo-dragon .nome-personagem-dragon {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Secular One";
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+
+.conteudo-dragon .descricao-dragon {
+    color: #ffffff;
+    font-family: "Rubik";
+    line-height: 24px;
+}
+
+.descricao-dragon{
+    width: 70%;
+}
+
+.conteudo-dragon .logo-dragon{
+    background-image: url("../imagensDragon/dragon-ball-super-logo.png");
+    background-size: cover;
+    height: 100px;
+    width: 40%;
+    margin-bottom: 35px;
+}
+
+.botoes-dragon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.botoes-dragon .botao-dragon{
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.botoes-dragon .botao-dragon{
+    border-radius: 50%;
+}
+
+.botoes-dragon .botao-dragon img{
+    border-radius: 50%;
+}
+
+.botoes-dragon .botao-dragon.ok{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #000000;
+}
+
+.botao-dragon.ok{
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.botao-dragon.ok{
+    border-radius: 50%;
+}
+
+.botao-dragon.ok img{
+    border-radius: 50%;
+}

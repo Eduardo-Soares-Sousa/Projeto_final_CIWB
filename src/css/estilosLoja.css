@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../imagensLoja/Imagem_fundo_loja.png");
+    overflow-x: hidden;
+}
+
+#tituloPG{
+    text-align: center;
+    padding: 20px;
+    height: 2%;
+    background-color: #7017ff;
+    color: white;
+}
+
+#barra_de_pesquisa{
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pesquisa{
+    padding: 5px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 33%;
+}
+
+#itemCount{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(110, 173, 255);
+    color: black;
+    margin-right: 700px;
+}
+
+#gridContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#submeter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 5px;
+    width: 5%;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(110, 173, 255);
+    color: black;
+    cursor: pointer;
+}
+
+#submeter:hover{
+    background-color: rgb(13, 118, 255);
+}
+
+#pesquisa{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 18%;
+    height: 24px;
+}
+
+#itemCount{
+    padding: 9px 10px;
+}
+
+.grid-item{
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.grid-item:hover{
+    transform: translateY(-5px);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.descricao{
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type=submit]{
+    background-color: rgb(11, 38, 53);
+    color: #fff;
+    width: 20%;
+    height: 5%;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(0, 86, 136);
+}
+
+footer{
+    margin-left: 93%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+a{
+    flex: 1;
+    padding: 15px;
+    background-color: #3498db;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+
+a:hover{
+    transform: scale(1.2);
+}

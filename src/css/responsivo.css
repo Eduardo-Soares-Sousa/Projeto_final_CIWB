@@ -1,0 +1,96 @@
+@media(max-width: 930px){
+    main::after{
+        background: linear-gradient(-233deg, #000 40%, rgb(0, 0, 0, 0) 65%) no-repeat;
+        width: 100vh;
+    }
+
+    main .personagem-yugioh .imagem-yugioh{
+        height: 85%;
+    }
+
+    .conteudo-yugioh{
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
+
+    .conteudo-yugioh .nome-personagem-yugioh{
+        font-size: 36px;
+    }
+
+    .conteudo-yugioh .descricao-yugioh{
+        max-width: 500px;
+    }
+
+    .botoes-yugioh{
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .botoes-yugioh .botao-yugioh img{
+        max-width: 60px;
+    }
+}
+
+@media(max-width: 450px){
+    #section2{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    main .personagem-yugioh .imagem-yugioh {
+        width: 1000px;
+        height: 700px;
+    }
+
+    .conteudo-yugioh .logo-yugioh{
+        margin-top: 300px;
+        width: 150px;
+        height: 50px;
+    }
+
+    .conteudo-yugioh{
+        top: -90%;
+        font-size: 15px;
+    }
+
+    .descricao-yugioh{
+        font-size: 15px;
+        width: 280px;
+    }
+
+    .conteudo-yugioh .nome-personagem-yugioh{
+        font-size: 25px;
+    }
+
+    .botoes-yugioh{
+        flex-direction: row;
+        align-items: flex-end;
+        align-content: center;
+        width: 100%;
+        margin-right: 150px;
+    }
+
+    .botoes-yugioh{
+        padding: 20px;
+        top: -60%;
+    }
+
+    .botoes-yugioh .botao-yugioh img{
+        max-width: 50px;
+    }
+
+    main::after{
+        background: none;
+    }
+}
+
+@media(max-width: 759px){
+    main::after{
+        background: none;
+    }
+}

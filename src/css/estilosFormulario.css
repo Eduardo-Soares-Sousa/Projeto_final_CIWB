@@ -1,0 +1,104 @@
+#section7 {
+    position: relative;
+    height: 160%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url("../imagensFormulario/imagem_fundo.png");
+}
+
+.login{
+    background-color: #ff9946;
+    border-radius: 10px;
+    width: 40%;
+    margin: 90px auto;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-self: center;
+}
+
+.formulario{
+    align-items: center;
+    text-align: center;
+}
+
+.sexo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -5px;
+}
+
+.interesse{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input{
+    display: block;
+    width: 70%;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 12px 20px;
+    outline: none;
+}
+
+#enviar, #limpar{
+    width: 40%;
+}
+
+#noticia{
+    width: 100%;
+    margin: 20px 0;
+}
+
+#interesse{
+    width: 130%;
+    margin: 20px 0;
+}
+
+input[type=text],input[type=password], input[type=email]{
+    border: 1px solid #ccc;
+}
+
+input[type=submit], input[type=reset]{
+    background-color: rgb(87, 84, 255);
+    color: #ffff;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover, #buscarCep:hover{
+    background-color: rgb(3, 0, 155);
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
+    border: 2px solid #000;
+}
+
+fieldset{
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+.cep{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#buscarCep{
+    background-color: rgb(87, 84, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+}

@@ -1,0 +1,116 @@
+#section2 {
+    height: 100%;
+}
+
+.personagens-yugioh::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.imagem-yugioh{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.personagem-yugioh{
+    display: none;
+    height: 100%;
+}
+
+.personagem-yugioh.select{
+    display: block;
+}
+
+.personagem-yugioh .imagem-yugioh{
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudo-yugioh{
+    position: absolute;
+    top: 0;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    max-width: 38%;
+    z-index: 1;
+}
+
+.conteudo-yugioh .nome-personagem-yugioh {
+    color: #ffffff;
+    font-size: 42px;
+    font-family: "Secular One";
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+
+.conteudo-yugioh .logo-yugioh{
+    background-image: url("../imagensYuGi/Yu-Gi-OhLogo.png");
+    background-size: cover;
+    height: 100px;
+    width: 40%;
+    margin-bottom: 35px;
+}
+
+.conteudo-yugioh .descricao-yugioh {
+    color: #ffffff;
+    font-family: "Rubik";
+    line-height: 24px;
+}
+
+.descricao-yugioh{
+    width: 60%;
+}
+
+.conteudo-yugioh {
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+    margin-bottom: 35px;
+}
+
+.botoes-yugioh {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.botoes-yugioh .botao-yugioh{
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.botoes-yugioh .botao-yugioh{
+    border-radius: 50%;
+}
+
+.botoes-yugioh .botao-yugioh img{
+    border-radius: 50%;
+}
+
+.botoes-yugioh .botao-yugioh.select {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #000000;
+}

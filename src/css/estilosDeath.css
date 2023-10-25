@@ -1,0 +1,123 @@
+#section6 {
+    height: 100vh;
+}
+
+.personagens-death::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.imagem-death{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.personagem-death{
+    display: none;
+    height: 100%;
+}
+
+.personagem-death.active{
+    display: block;
+}
+
+.personagem-death .imagem-death{
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudo-death{
+    position: absolute;
+    top: 0;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    max-width: 38%;
+    z-index: 1;
+}
+
+.conteudo-death .nome-personagem-death {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Secular One";
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+
+.conteudo-death .descricao-death {
+    color: #ffffff;
+    font-family: "Rubik";
+    line-height: 24px;
+}
+
+.descricao-death{
+    width: 70%;
+}
+
+.conteudo-death .logo-death{
+    background-image: url("../imagensDeath/Death_Note_logo.png");
+    background-size: cover;
+    height: 100px;
+    width: 53%;
+    margin-bottom: 35px;
+}
+
+.botoes-death {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.botoes-death .botao-death{
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #000000;
+}
+
+.botoes-death .botao-death{
+    border-radius: 50%;
+}
+
+.botoes-death .botao-death img{
+    border-radius: 50%;
+}
+
+.botoes-death .botao-death.active{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #000000;
+}
+
+.botao-death.active{
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.botao-death.active{
+    border-radius: 50%;
+}
+
+.botao-death.active img{
+    border-radius: 50%;
+}

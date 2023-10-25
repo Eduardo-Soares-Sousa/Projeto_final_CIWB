@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/css/estilosLoja.css">
+
+    <title>Loja</title>
+</head>
+<body>
+    <div id="tituloPG">
+        <h1>Seja bem-vindo ao nosso e-commerce</h1>
+        <h3>Aqui você encontra seus personagens favoritos</h3>
+    </div>
+            
+    <div id="barra_de_pesquisa">
+        <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar">
+        <input type="submit" name="submeter" id="submeter" value="Buscar">
+        <div id="conta_itens">
+            <select id="itemCount">
+                <option value="4">4</option>
+                <option value="8">8</option>
+                <option value="12">12</option>
+                <option value="16">16</option>
+            </select>
+        </div>
+    </div>
+            
+    <div id="gridContainer"></div>
+
+    <footer>
+        <a href="index.html" class="voltar">Voltar</a>
+    </footer>
+
+    <script src="./src/js/Loja.js"></script>
+</body>
+</html>
